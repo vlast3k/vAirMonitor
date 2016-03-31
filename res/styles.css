@@ -1083,7 +1083,7 @@ html {
 }
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
+  font-size: 17px;
   line-height: 1.8;
   color: #565656;
   background-color: #ffffff;
@@ -6940,10 +6940,10 @@ body {
 /* General */
 .hero {
   position: relative;
-  padding: 170px 0 100px;
+/*  padding: 170px 0 100px;*/
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .hero::before {
   position: absolute;
@@ -6960,7 +6960,7 @@ body {
 }
 @media (min-width: 768px) {
   .hero {
-    padding: 220px 0 150px;
+/*    padding: 220px 0 150px;*/
   }
 }
 .hero__heading {
